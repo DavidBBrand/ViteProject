@@ -48,7 +48,7 @@ function App() {
   <div >
     <Counter/>
     
-    <ColorBox colors={colors}/>
+    {/* <ColorBox colors={colors}/> */}
     
     <ColorBoxGrid colors={colors} />
 

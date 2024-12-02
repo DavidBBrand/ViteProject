@@ -3,7 +3,7 @@ import "./ColorBoxGrid.css";
 
 export default function ColorBoxGrid({colors}){
     const boxes = [];
-    for(let i = 0; i < 25; i++) {
+    for(let i = 0; i < 10; i++) {
         boxes.push(<ColorBox colors={colors}/>)
     }
     return (
